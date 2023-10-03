@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <title>Bootstrap basics</title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div class="container-fluid">
+            <div class="container">
+              <!-- nav section -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">A-one</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">register</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div></nav>
+  <!-- home -->
+<div class="container">
+    <div class="row p-5">
+        <div class="border col-3 bg-light"><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGyO5dQGBEu5qn9ZhSXXTaIV5dsQIPj-6X5g&usqp=CAU" alt=""></div>
+        <div class="border col-9 ">
+            Colors have perceived properties such as hue, colorfulness (saturation) and luminance. Colors can also be additively mixed (commonly used for actual light) or subtractively mixed (commonly used for materials). If the colors are mixed in the right proportions, because of metamerism, they may look the same as a single-wavelength light. For convenience, colors can be organized in a color space, which when being abstracted as a mathematical color model can assign each region of color with a corresponding set of numbers. As such, color spaces are an essential tool for color reproduction in print, photography, computer monitors and television. The most well-known color models are RGB, CMYK, YUV, HSL and HSV. </div> 
+    </div>
+    <div class="row">
+        <div class="border col-8 p-3">
+
+            The familiar colors of the rainbow in the spectrum—named using the Latin word for appearance or apparition by Isaac Newton in 1671—include all those colors that can be produced by visible light of a single wavelength only, the pure spectral or monochromatic colors. The table at right shows approximate frequencies (in terahertz) and wavelengths (in nanometers) for spectral colors in the visible range. Spectral colors have 100% purity, and are fully saturated. A complex mixture of spectral colors can be used to describe any color, which is the definition of a light power spectrum.
+            
+            The color table should not be interpreted as a definitive list; the spectral colors form a continuous spectrum, and how it is divided into distinct colors linguistically is a matter of culture and historical contingency.[1] Despite the ubiquitous ROYGBIV mnemonic used to remember the spectral colors in English, the inclusion or exclusion of colors in this table is contentious, with disagreement often focused on indigo and cyan.[2] Even if the subset of color terms is agreed, their wavelength ranges and borders between them may not be.
+            
+            The intensity of a spectral color, relative to the context in which it is viewed, may alter its perception considerably according to the Bezold–B</div>
+        <div class="border col-4 bg-caution pt-5"><img class="img-thumbnail" src="https://img.freepik.com/free-vector/retro-style-pixel-pattern-dotted-background-with-halftone-effect_1017-43324.jpg" alt=""></div>
+    </div>
+</div>
+<!-- grid section -->
+<div class="container grid">
+  <!-- 1st row -->
+  <div class="row">
+    <div class="col-4 bg-primary">abc</div>
+    <div class="col-4 bg-danger">def</div>
+    <div class="col-4 bg-success">ghi</div>
+  </div>
+  <!-- 2st row -->
+  <div class="row">
+  <div class="col-8">
+    <div class="row h-50">
+      <div class="col-12 bg-light border-bottom-dark ">full width</div></div>
+    <div class="row h-50">
+    <div class="col-6 bg-dark">half</div>
+    <div class="col-6 bg-caution">half</div></div>
+  </div>
+  <div class="col-4 bg-primary">quater</div></div>
+  <!-- 3rd row -->
+  <div class="row">
+    <div class="col-4 bg-primary">
+    </div>
+    <div class="col-8">
+      <div class="row h-50">
+      <div class="col-3 bg-dark">2</div>
+      <div class="col-3 bg-primary">3</div>
+      <div class="col-3 bg-light">4</div>
+      <div class="col-3 ">5</div></div>
+      <div class="row h-50">
+        <div class="row"><div class="col-12 bg-dark">6</div></div>
+        <div class="row"><div class="col-6 bg-success">7</div>
+        <div class="col-6 bg-danger">8</div></div>
+      </div>
+    </div>
+  </div>
+  <!-- form -->
+  <div class="container">
+    <div class="container mt-5 p-4">
+      <div class="border col-8 mx-auto bg-dark text-light p-3 rounded">
+          <h3 class="text-center">Register Now</h3>
+          <div class=" col-9 mx-auto">
+          <form action="">
+              <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"> Name </label>
+                  <input type="name" class="form-control" id="nameFormControlInput1" placeholder="your name">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email </label>
+                  <input type="email" class="form-control" id="nameFormControlInput1" placeholder="your email">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"> passward</label>
+                  <input type="password" class="form-control" id="nameFormControlInput1" placeholder="type ur password">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">confirm-passward</label>
+                  <input type="password" class="form-control" id="nameFormControlInput1" placeholder="confirm- password">
+                </div>
+          </form>
+          <button type="submit" class="btn-light">submit</button>
+          </div>
+
+      </div>
+  </div>
+  </div>
+</div>
+
+         
+
+<!-- form section -->
+        </div>
+        </div>
+        
+</body>
+</html>
